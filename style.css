@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url('OBRAZY/body_bg.png') repeat;
+  font-family: Tahoma, sans-serif;
+}
+
+.header {
+  height: 370px;
+  background: url('OBRAZY/scena.png') no-repeat center top/cover;
+}
+
+.nav {
+  background: url('OBRAZY/menu_bar.png') repeat-x center;
+  height: 60px;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.nav a {
+  text-decoration: none;
+  font-family: Verdana, sans-serif;
+  color: #9c742f;
+}
+
+.wrap {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #9c742f;
+}
+
+.left {
+  width: 30%;
+  background: #2a1900;
+  color: #c59f3f;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.right {
+  width: 70%;
+  background: #ddccae;
+  color: #2a1900;
+  vertical-align: top;
+  padding: 20px;
+}
+
+.footer {
+  height: 50px;
+  width: 100%;
+  background: #2a1900;
+  color: #7c6a3d;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #9c742f;
+}
